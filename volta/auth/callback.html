@@ -1,0 +1,19 @@
+<!doctype html><meta charset="utf-8"><title>Volta - returning to app</title><meta name="viewport" content="width=device-width,initial-scale=1">
+<body style="background:#000;color:#eee;font-family:system-ui;display:grid;place-items:center;height:100vh;margin:0;text-align:center">
+<div>
+<h1 style="color:#FF5A1F">Volta</h1>
+<p id="msg">Returning you to the app...</p>
+<p><a id="link" href="#" style="color:#FF5A1F">Tap here if nothing happens</a></p>
+</div>
+<script>
+(function () {
+  var q = window.location.search || "";
+  var target = "volta://auth/callback" + q;
+  document.getElementById("link").href = target;
+  var p = new URLSearchParams(q);
+  if (p.get("error")) {
+    document.getElementById("msg").textContent = "Sign-in was cancelled or failed: " + (p.get("error_description") || p.get("error"));
+  }
+  window.location.replace(target);
+})();
+</script>
