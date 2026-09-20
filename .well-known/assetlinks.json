@@ -1,0 +1,8 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "dev.volta.app",
+    "sha256_cert_fingerprints": ["C4:05:B4:52:C5:D8:91:8F:E8:5B:2D:37:4F:B9:4F:99:A6:3B:7D:6C:19:18:99:D9:97:63:CF:46:60:F9:1D:0C"]
+  }
+}]
