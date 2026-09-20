@@ -3,6 +3,6 @@
   "target": {
     "namespace": "android_app",
     "package_name": "dev.volta.app",
-    "sha256_cert_fingerprints": ["C4:05:B4:52:C5:D8:91:8F:E8:5B:2D:37:4F:B9:4F:99:A6:3B:7D:6C:19:18:99:D9:97:63:CF:46:60:F9:1D:0C"]
+    "sha256_cert_fingerprints": ["A8:12:81:D3:E8:51:99:DD:28:B6:3E:34:AE:CF:6B:C6:01:BB:56:F8:34:B1:B4:BA:34:95:37:5B:C7:A6:CB:6A"]
   }
 }]
